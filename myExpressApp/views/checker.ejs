@@ -14,19 +14,19 @@
 
   <%-include("partials/nav.ejs")%>
 
-  <p> Upload two files to compare how similar they are and receive a similarity percentage as a result.</p>
+  <p> Upload a zip file containing the files you want to compare and receive similarity percentages as a result.</p>
 
   <br>
   <fieldset id="checkerDiv">
     <form>
-      <label for="checkFile1">Upload file:</label>
-      <input type="file" id="checkFile1" name="checkFile1">
+      <label for="checkFile">Upload file:</label>
+      <input type="file" id="checkFile" name="checkFile">
     </form>
 
-    <form>
-      <label for="checkFile2">Upload file:</label>
-      <input type="file" id="checkFile2" name="checkFile2">
-    </form>
+    <div id = "checkerResults">
+
+    </div>
+
     </fieldset>
   
 
